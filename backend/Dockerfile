@@ -8,7 +8,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Pull backend code
-RUN git clone https://github.com/pbatleyGH/express-backend ##pull again
+RUN git clone https://github.com/pbatleyGH/express-backend
 
 # Change directory into pulled repository containing API and package.json
 WORKDIR express-backend
