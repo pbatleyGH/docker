@@ -8,7 +8,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Git pull step
-RUN git clone https://github.com/pbatleyGH/sweet-frontend #repull
+RUN git clone https://github.com/pbatleyGH/sweet-frontend
 
 # Change directory into pulled repo containing app and package.json file
 WORKDIR sweet-frontend
